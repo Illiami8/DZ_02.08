@@ -1,4 +1,4 @@
-package controler.repositories;
+package app.controler.repositories;
 
 import app.User;
 

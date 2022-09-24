@@ -1,4 +1,4 @@
-package controler;
+package app.controler;
 
 public class RepositoryFactory {
 }

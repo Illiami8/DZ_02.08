@@ -1,6 +1,6 @@
-package controler;
+package app.controler;
 
-import controler.repositories.UsersRepositories;
+import app.controler.repositories.UsersRepositories;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

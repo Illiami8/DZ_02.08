@@ -1,8 +1,8 @@
-package controler;
+package app.controler;
 
 import app.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import controler.repositories.UsersRestRepositories;
+import app.controler.repositories.UsersRestRepositories;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,8 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/api/users")

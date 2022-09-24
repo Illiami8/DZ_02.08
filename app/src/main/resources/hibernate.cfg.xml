@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/mydb2</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">cherep18</property>
+        <property name="dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
+        <property name="hbm2ddl.auto">validate</property>
+        <property name="current_session_context_class">thread</property>
+<!--        <property name="show_sql">true</property>-->
+
+       <!-- <mapping resource="Administrator.hbm.xml"/>
+        <mapping resource="student.hbm.xml"/>
+>-->
+        <mapping class="com.Cherepovski.Car"/>
+    </session-factory>
+</hibernate-configuration>

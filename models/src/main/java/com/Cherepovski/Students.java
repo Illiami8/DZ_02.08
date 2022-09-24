@@ -12,5 +12,6 @@ public class Students extends AbstractId {
     private String password;
     private String FIO;
     private int age;
+    private int salary;
     private int marks;
 }
